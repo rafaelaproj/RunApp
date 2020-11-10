@@ -14,6 +14,11 @@ import rafaelacs.com.br.runapp.other.TrackingUtility
 import java.text.SimpleDateFormat
 import java.util.*
 
+/*
+ * Run Adapter
+ *
+ *
+ */
 class RunAdapter: RecyclerView.Adapter<RunAdapter.RunViewHolder>() {
 
     inner class RunViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
