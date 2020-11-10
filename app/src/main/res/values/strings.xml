@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Run!</string>
+
+    <string name="your_runs">Suas Corridas</string>
+    <string name="statistics">Estatísticas</string>
+    <string name="settings">Configurações</string>
+
+    <string name="sort_by">Ordenar por:</string>
+    <string name="apply_changes">Atualizar</string>
+    <string name="your_weight">Seu Peso</string>
+    <string name="your_name">Seu Nome</string>
+    <string name="welcome">Bem-vinda(o)!\nDigite seu nome e peso.</string>
+    <string name="kg">kg</string>
+    <string name="continuee">Continuar</string>
+    <string name="total_distance">Distância Total</string>
+    <string name="_0km">0km</string>
+    <string name="total_time">Tempo Total</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="total_calories_burned">Total Calorias Eliminadas</string>
+    <string name="_0kcal">0kcal</string>
+    <string name="average_speed">Velocidade Média</string>
+    <string name="_0km_h">0km/h</string>
+    <string name="start">Iniciar</string>
+    <string name="finish_run">Finalizar</string>
+    <string name="let_s_go_username">Vamos lá, USERNAME!</string>
+
+    <string name="date">DATA</string>
+    <string name="time">TEMPO</string>
+    <string name="distance">DISTÂNCIA</string>
+    <string name="avgspeed">VELOCIDADE MÉDIA</string>
+    <string name="caloriesburned">CALORIAS ELIMINADAS</string>
+    <string name="cancel_run">CANCELAR</string>
+    <string name="duration">DURAÇÃO</string>
+
+    <string-array name="filter_options">
+        <item>Data</item>
+        <item>Tempo da Corrida</item>
+        <item>Distância</item>
+        <item>Velocidade Média</item>
+        <item>Calorias Eliminadas</item>
+    </string-array>
+
+    <string name="title_activity_maps">Mapa</string>
+    <string name="map">Mapa</string>
+    <string name="stop">Parar</string>
+    <string name="title">Título</string>
+    <string name="action_geolocate">Escolher Lugar</string>
+    <string name="default_info_title">Localização Padrão</string>
+    <string name="default_info_snippet">Nenhum lugar encontrado devido a permissão de localização estar desabilitada.</string>
+    <string name="run_image_description">Visualização do deslocamento no mapa</string>
+</resources>
