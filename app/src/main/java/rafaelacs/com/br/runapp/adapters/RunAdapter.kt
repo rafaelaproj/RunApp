@@ -24,7 +24,7 @@ class RunAdapter: RecyclerView.Adapter<RunAdapter.RunViewHolder>() {
     inner class RunViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     /*
-     *
+     * Ok! diffCallback is verified here
      */
     private val diffCallback = object : DiffUtil.ItemCallback<Run>() {
         override fun areItemsTheSame(oldItem: Run, newItem: Run): Boolean {
@@ -34,6 +34,7 @@ class RunAdapter: RecyclerView.Adapter<RunAdapter.RunViewHolder>() {
         override fun areContentsTheSame(oldItem: Run, newItem: Run): Boolean {
             return oldItem.hashCode() == newItem.hashCode()
         }
+
     }
 
     //List differ to efficiently deal with changes in the RecyclerView
