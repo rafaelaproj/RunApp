@@ -24,7 +24,7 @@ class RunAdapter: RecyclerView.Adapter<RunAdapter.RunViewHolder>() {
     inner class RunViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     /*
-     *
+     * Verify if items and the contents are the same.
      */
     private val diffCallback = object : DiffUtil.ItemCallback<Run>() {
         override fun areItemsTheSame(oldItem: Run, newItem: Run): Boolean {
